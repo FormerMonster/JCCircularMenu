@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0AE3E0927EB05F600C8F0E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E0827EB05F600C8F0E6 /* AppDelegate.m */; };
+		D0AE3E0F27EB05F600C8F0E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E0E27EB05F600C8F0E6 /* ViewController.m */; };
+		D0AE3E1227EB05F600C8F0E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AE3E1027EB05F600C8F0E6 /* Main.storyboard */; };
+		D0AE3E1427EB05F600C8F0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AE3E1327EB05F600C8F0E6 /* Assets.xcassets */; };
+		D0AE3E1727EB05F600C8F0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AE3E1527EB05F600C8F0E6 /* LaunchScreen.storyboard */; };
+		D0AE3E1A27EB05F600C8F0E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E1927EB05F600C8F0E6 /* main.m */; };
+		D0AE3E2427EB05F600C8F0E6 /* CircularMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E2327EB05F600C8F0E6 /* CircularMenuTests.m */; };
+		D0AE3E2E27EB05F600C8F0E6 /* CircularMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E2D27EB05F600C8F0E6 /* CircularMenuUITests.m */; };
+		D0AE3E3027EB05F600C8F0E6 /* CircularMenuUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E2F27EB05F600C8F0E6 /* CircularMenuUITestsLaunchTests.m */; };
+		D0AE3E4927EB068D00C8F0E6 /* CircularCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E3D27EB068D00C8F0E6 /* CircularCell.m */; };
+		D0AE3E4A27EB068D00C8F0E6 /* CircularSubLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E3E27EB068D00C8F0E6 /* CircularSubLayout.m */; };
+		D0AE3E4B27EB068D00C8F0E6 /* CirularSubMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E4527EB068D00C8F0E6 /* CirularSubMenuView.m */; };
+		D0AE3E4C27EB068D00C8F0E6 /* CircularLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E4627EB068D00C8F0E6 /* CircularLayout.m */; };
+		D0AE3E4D27EB068D00C8F0E6 /* CircularMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E4727EB068D00C8F0E6 /* CircularMenu.m */; };
+		D0AE3E4E27EB068D00C8F0E6 /* CirularSubMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E4827EB068D00C8F0E6 /* CirularSubMenuCell.m */; };
+		D0AE3E6A27EB078600C8F0E6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E5227EB078600C8F0E6 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D0AE3E6B27EB078600C8F0E6 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E5B27EB078600C8F0E6 /* ViewController+MASAdditions.m */; };
+		D0AE3E6C27EB078600C8F0E6 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E5F27EB078600C8F0E6 /* MASCompositeConstraint.m */; };
+		D0AE3E6D27EB078600C8F0E6 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E6027EB078600C8F0E6 /* MASConstraintMaker.m */; };
+		D0AE3E6E27EB078600C8F0E6 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E6127EB078600C8F0E6 /* MASLayoutConstraint.m */; };
+		D0AE3E6F27EB078600C8F0E6 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E6227EB078600C8F0E6 /* NSArray+MASAdditions.m */; };
+		D0AE3E7027EB078600C8F0E6 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E6327EB078600C8F0E6 /* View+MASAdditions.m */; };
+		D0AE3E7127EB078600C8F0E6 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E6627EB078600C8F0E6 /* MASConstraint.m */; };
+		D0AE3E7227EB078600C8F0E6 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E6827EB078600C8F0E6 /* MASViewConstraint.m */; };
+		D0AE3E7327EB078600C8F0E6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E6927EB078600C8F0E6 /* MASViewAttribute.m */; };
+		D0AE3E7627EB08AB00C8F0E6 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E7427EB08AB00C8F0E6 /* UIView+Extend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0AE3E2027EB05F600C8F0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0AE3DFC27EB05F600C8F0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0AE3E0327EB05F600C8F0E6;
+			remoteInfo = CircularMenu;
+		};
+		D0AE3E2A27EB05F600C8F0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0AE3DFC27EB05F600C8F0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0AE3E0327EB05F600C8F0E6;
+			remoteInfo = CircularMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0AE3E0427EB05F600C8F0E6 /* CircularMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AE3E0727EB05F600C8F0E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0AE3E0827EB05F600C8F0E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0AE3E0D27EB05F600C8F0E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0AE3E0E27EB05F600C8F0E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0AE3E1127EB05F600C8F0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0AE3E1327EB05F600C8F0E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0AE3E1627EB05F600C8F0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0AE3E1827EB05F600C8F0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0AE3E1927EB05F600C8F0E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0AE3E1F27EB05F600C8F0E6 /* CircularMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AE3E2327EB05F600C8F0E6 /* CircularMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularMenuTests.m; sourceTree = "<group>"; };
+		D0AE3E2927EB05F600C8F0E6 /* CircularMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AE3E2D27EB05F600C8F0E6 /* CircularMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularMenuUITests.m; sourceTree = "<group>"; };
+		D0AE3E2F27EB05F600C8F0E6 /* CircularMenuUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularMenuUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D0AE3E3D27EB068D00C8F0E6 /* CircularCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularCell.m; sourceTree = "<group>"; };
+		D0AE3E3E27EB068D00C8F0E6 /* CircularSubLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularSubLayout.m; sourceTree = "<group>"; };
+		D0AE3E3F27EB068D00C8F0E6 /* CircularLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularLayout.h; sourceTree = "<group>"; };
+		D0AE3E4027EB068D00C8F0E6 /* CirularSubMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirularSubMenuView.h; sourceTree = "<group>"; };
+		D0AE3E4127EB068D00C8F0E6 /* CirularSubMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirularSubMenuCell.h; sourceTree = "<group>"; };
+		D0AE3E4227EB068D00C8F0E6 /* CircularMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularMenu.h; sourceTree = "<group>"; };
+		D0AE3E4327EB068D00C8F0E6 /* CircularCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularCell.h; sourceTree = "<group>"; };
+		D0AE3E4427EB068D00C8F0E6 /* CircularSubLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularSubLayout.h; sourceTree = "<group>"; };
+		D0AE3E4527EB068D00C8F0E6 /* CirularSubMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirularSubMenuView.m; sourceTree = "<group>"; };
+		D0AE3E4627EB068D00C8F0E6 /* CircularLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularLayout.m; sourceTree = "<group>"; };
+		D0AE3E4727EB068D00C8F0E6 /* CircularMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularMenu.m; sourceTree = "<group>"; };
+		D0AE3E4827EB068D00C8F0E6 /* CirularSubMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirularSubMenuCell.m; sourceTree = "<group>"; };
+		D0AE3E4F27EB06D500C8F0E6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D0AE3E5127EB078600C8F0E6 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D0AE3E5227EB078600C8F0E6 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D0AE3E5327EB078600C8F0E6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D0AE3E5427EB078600C8F0E6 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D0AE3E5527EB078600C8F0E6 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D0AE3E5627EB078600C8F0E6 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D0AE3E5727EB078600C8F0E6 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D0AE3E5827EB078600C8F0E6 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D0AE3E5927EB078600C8F0E6 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D0AE3E5A27EB078600C8F0E6 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D0AE3E5B27EB078600C8F0E6 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D0AE3E5C27EB078600C8F0E6 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D0AE3E5D27EB078600C8F0E6 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D0AE3E5E27EB078600C8F0E6 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D0AE3E5F27EB078600C8F0E6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D0AE3E6027EB078600C8F0E6 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D0AE3E6127EB078600C8F0E6 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D0AE3E6227EB078600C8F0E6 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D0AE3E6327EB078600C8F0E6 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D0AE3E6427EB078600C8F0E6 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D0AE3E6527EB078600C8F0E6 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D0AE3E6627EB078600C8F0E6 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D0AE3E6727EB078600C8F0E6 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D0AE3E6827EB078600C8F0E6 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D0AE3E6927EB078600C8F0E6 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		D0AE3E7427EB08AB00C8F0E6 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		D0AE3E7527EB08AB00C8F0E6 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0AE3E0127EB05F600C8F0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AE3E1C27EB05F600C8F0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AE3E2627EB05F600C8F0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0AE3DFB27EB05F600C8F0E6 = {
+			isa = PBXGroup;
+			children = (
+				D0AE3E0627EB05F600C8F0E6 /* CircularMenu */,
+				D0AE3E2227EB05F600C8F0E6 /* CircularMenuTests */,
+				D0AE3E2C27EB05F600C8F0E6 /* CircularMenuUITests */,
+				D0AE3E0527EB05F600C8F0E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0AE3E0527EB05F600C8F0E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE3E0427EB05F600C8F0E6 /* CircularMenu.app */,
+				D0AE3E1F27EB05F600C8F0E6 /* CircularMenuTests.xctest */,
+				D0AE3E2927EB05F600C8F0E6 /* CircularMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0AE3E0627EB05F600C8F0E6 /* CircularMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE3E7527EB08AB00C8F0E6 /* UIView+Extend.h */,
+				D0AE3E7427EB08AB00C8F0E6 /* UIView+Extend.m */,
+				D0AE3E5027EB078600C8F0E6 /* Masonry */,
+				D0AE3E4F27EB06D500C8F0E6 /* PrefixHeader.pch */,
+				D0AE3E3C27EB068D00C8F0E6 /* CircularMenuView */,
+				D0AE3E0727EB05F600C8F0E6 /* AppDelegate.h */,
+				D0AE3E0827EB05F600C8F0E6 /* AppDelegate.m */,
+				D0AE3E0D27EB05F600C8F0E6 /* ViewController.h */,
+				D0AE3E0E27EB05F600C8F0E6 /* ViewController.m */,
+				D0AE3E1027EB05F600C8F0E6 /* Main.storyboard */,
+				D0AE3E1327EB05F600C8F0E6 /* Assets.xcassets */,
+				D0AE3E1527EB05F600C8F0E6 /* LaunchScreen.storyboard */,
+				D0AE3E1827EB05F600C8F0E6 /* Info.plist */,
+				D0AE3E1927EB05F600C8F0E6 /* main.m */,
+			);
+			path = CircularMenu;
+			sourceTree = "<group>";
+		};
+		D0AE3E2227EB05F600C8F0E6 /* CircularMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE3E2327EB05F600C8F0E6 /* CircularMenuTests.m */,
+			);
+			path = CircularMenuTests;
+			sourceTree = "<group>";
+		};
+		D0AE3E2C27EB05F600C8F0E6 /* CircularMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE3E2D27EB05F600C8F0E6 /* CircularMenuUITests.m */,
+				D0AE3E2F27EB05F600C8F0E6 /* CircularMenuUITestsLaunchTests.m */,
+			);
+			path = CircularMenuUITests;
+			sourceTree = "<group>";
+		};
+		D0AE3E3C27EB068D00C8F0E6 /* CircularMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE3E4427EB068D00C8F0E6 /* CircularSubLayout.h */,
+				D0AE3E3E27EB068D00C8F0E6 /* CircularSubLayout.m */,
+				D0AE3E4027EB068D00C8F0E6 /* CirularSubMenuView.h */,
+				D0AE3E4527EB068D00C8F0E6 /* CirularSubMenuView.m */,
+				D0AE3E4127EB068D00C8F0E6 /* CirularSubMenuCell.h */,
+				D0AE3E4827EB068D00C8F0E6 /* CirularSubMenuCell.m */,
+				D0AE3E4327EB068D00C8F0E6 /* CircularCell.h */,
+				D0AE3E3D27EB068D00C8F0E6 /* CircularCell.m */,
+				D0AE3E3F27EB068D00C8F0E6 /* CircularLayout.h */,
+				D0AE3E4627EB068D00C8F0E6 /* CircularLayout.m */,
+				D0AE3E4227EB068D00C8F0E6 /* CircularMenu.h */,
+				D0AE3E4727EB068D00C8F0E6 /* CircularMenu.m */,
+			);
+			path = CircularMenuView;
+			sourceTree = "<group>";
+		};
+		D0AE3E5027EB078600C8F0E6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE3E5127EB078600C8F0E6 /* MASCompositeConstraint.h */,
+				D0AE3E5227EB078600C8F0E6 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D0AE3E5327EB078600C8F0E6 /* MASConstraint+Private.h */,
+				D0AE3E5427EB078600C8F0E6 /* MASLayoutConstraint.h */,
+				D0AE3E5527EB078600C8F0E6 /* NSArray+MASShorthandAdditions.h */,
+				D0AE3E5627EB078600C8F0E6 /* MASConstraintMaker.h */,
+				D0AE3E5727EB078600C8F0E6 /* View+MASAdditions.h */,
+				D0AE3E5827EB078600C8F0E6 /* NSArray+MASAdditions.h */,
+				D0AE3E5927EB078600C8F0E6 /* MASUtilities.h */,
+				D0AE3E5A27EB078600C8F0E6 /* MASViewAttribute.h */,
+				D0AE3E5B27EB078600C8F0E6 /* ViewController+MASAdditions.m */,
+				D0AE3E5C27EB078600C8F0E6 /* MASViewConstraint.h */,
+				D0AE3E5D27EB078600C8F0E6 /* MASConstraint.h */,
+				D0AE3E5E27EB078600C8F0E6 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D0AE3E5F27EB078600C8F0E6 /* MASCompositeConstraint.m */,
+				D0AE3E6027EB078600C8F0E6 /* MASConstraintMaker.m */,
+				D0AE3E6127EB078600C8F0E6 /* MASLayoutConstraint.m */,
+				D0AE3E6227EB078600C8F0E6 /* NSArray+MASAdditions.m */,
+				D0AE3E6327EB078600C8F0E6 /* View+MASAdditions.m */,
+				D0AE3E6427EB078600C8F0E6 /* View+MASShorthandAdditions.h */,
+				D0AE3E6527EB078600C8F0E6 /* Masonry.h */,
+				D0AE3E6627EB078600C8F0E6 /* MASConstraint.m */,
+				D0AE3E6727EB078600C8F0E6 /* ViewController+MASAdditions.h */,
+				D0AE3E6827EB078600C8F0E6 /* MASViewConstraint.m */,
+				D0AE3E6927EB078600C8F0E6 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0AE3E0327EB05F600C8F0E6 /* CircularMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AE3E3327EB05F600C8F0E6 /* Build configuration list for PBXNativeTarget "CircularMenu" */;
+			buildPhases = (
+				D0AE3E0027EB05F600C8F0E6 /* Sources */,
+				D0AE3E0127EB05F600C8F0E6 /* Frameworks */,
+				D0AE3E0227EB05F600C8F0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularMenu;
+			productName = CircularMenu;
+			productReference = D0AE3E0427EB05F600C8F0E6 /* CircularMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0AE3E1E27EB05F600C8F0E6 /* CircularMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AE3E3627EB05F600C8F0E6 /* Build configuration list for PBXNativeTarget "CircularMenuTests" */;
+			buildPhases = (
+				D0AE3E1B27EB05F600C8F0E6 /* Sources */,
+				D0AE3E1C27EB05F600C8F0E6 /* Frameworks */,
+				D0AE3E1D27EB05F600C8F0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0AE3E2127EB05F600C8F0E6 /* PBXTargetDependency */,
+			);
+			name = CircularMenuTests;
+			productName = CircularMenuTests;
+			productReference = D0AE3E1F27EB05F600C8F0E6 /* CircularMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0AE3E2827EB05F600C8F0E6 /* CircularMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AE3E3927EB05F600C8F0E6 /* Build configuration list for PBXNativeTarget "CircularMenuUITests" */;
+			buildPhases = (
+				D0AE3E2527EB05F600C8F0E6 /* Sources */,
+				D0AE3E2627EB05F600C8F0E6 /* Frameworks */,
+				D0AE3E2727EB05F600C8F0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0AE3E2B27EB05F600C8F0E6 /* PBXTargetDependency */,
+			);
+			name = CircularMenuUITests;
+			productName = CircularMenuUITests;
+			productReference = D0AE3E2927EB05F600C8F0E6 /* CircularMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0AE3DFC27EB05F600C8F0E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D0AE3E0327EB05F600C8F0E6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D0AE3E1E27EB05F600C8F0E6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D0AE3E0327EB05F600C8F0E6;
+					};
+					D0AE3E2827EB05F600C8F0E6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D0AE3E0327EB05F600C8F0E6;
+					};
+				};
+			};
+			buildConfigurationList = D0AE3DFF27EB05F600C8F0E6 /* Build configuration list for PBXProject "CircularMenu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0AE3DFB27EB05F600C8F0E6;
+			productRefGroup = D0AE3E0527EB05F600C8F0E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0AE3E0327EB05F600C8F0E6 /* CircularMenu */,
+				D0AE3E1E27EB05F600C8F0E6 /* CircularMenuTests */,
+				D0AE3E2827EB05F600C8F0E6 /* CircularMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0AE3E0227EB05F600C8F0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE3E1727EB05F600C8F0E6 /* LaunchScreen.storyboard in Resources */,
+				D0AE3E1427EB05F600C8F0E6 /* Assets.xcassets in Resources */,
+				D0AE3E1227EB05F600C8F0E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AE3E1D27EB05F600C8F0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AE3E2727EB05F600C8F0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0AE3E0027EB05F600C8F0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE3E0F27EB05F600C8F0E6 /* ViewController.m in Sources */,
+				D0AE3E4E27EB068D00C8F0E6 /* CirularSubMenuCell.m in Sources */,
+				D0AE3E6F27EB078600C8F0E6 /* NSArray+MASAdditions.m in Sources */,
+				D0AE3E4C27EB068D00C8F0E6 /* CircularLayout.m in Sources */,
+				D0AE3E7027EB078600C8F0E6 /* View+MASAdditions.m in Sources */,
+				D0AE3E6A27EB078600C8F0E6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D0AE3E6C27EB078600C8F0E6 /* MASCompositeConstraint.m in Sources */,
+				D0AE3E4B27EB068D00C8F0E6 /* CirularSubMenuView.m in Sources */,
+				D0AE3E6B27EB078600C8F0E6 /* ViewController+MASAdditions.m in Sources */,
+				D0AE3E7327EB078600C8F0E6 /* MASViewAttribute.m in Sources */,
+				D0AE3E7227EB078600C8F0E6 /* MASViewConstraint.m in Sources */,
+				D0AE3E4D27EB068D00C8F0E6 /* CircularMenu.m in Sources */,
+				D0AE3E6D27EB078600C8F0E6 /* MASConstraintMaker.m in Sources */,
+				D0AE3E0927EB05F600C8F0E6 /* AppDelegate.m in Sources */,
+				D0AE3E6E27EB078600C8F0E6 /* MASLayoutConstraint.m in Sources */,
+				D0AE3E4A27EB068D00C8F0E6 /* CircularSubLayout.m in Sources */,
+				D0AE3E4927EB068D00C8F0E6 /* CircularCell.m in Sources */,
+				D0AE3E7127EB078600C8F0E6 /* MASConstraint.m in Sources */,
+				D0AE3E7627EB08AB00C8F0E6 /* UIView+Extend.m in Sources */,
+				D0AE3E1A27EB05F600C8F0E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AE3E1B27EB05F600C8F0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE3E2427EB05F600C8F0E6 /* CircularMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AE3E2527EB05F600C8F0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE3E3027EB05F600C8F0E6 /* CircularMenuUITestsLaunchTests.m in Sources */,
+				D0AE3E2E27EB05F600C8F0E6 /* CircularMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0AE3E2127EB05F600C8F0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0AE3E0327EB05F600C8F0E6 /* CircularMenu */;
+			targetProxy = D0AE3E2027EB05F600C8F0E6 /* PBXContainerItemProxy */;
+		};
+		D0AE3E2B27EB05F600C8F0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0AE3E0327EB05F600C8F0E6 /* CircularMenu */;
+			targetProxy = D0AE3E2A27EB05F600C8F0E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0AE3E1027EB05F600C8F0E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0AE3E1127EB05F600C8F0E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0AE3E1527EB05F600C8F0E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0AE3E1627EB05F600C8F0E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0AE3E3127EB05F600C8F0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0AE3E3227EB05F600C8F0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0AE3E3427EB05F600C8F0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CircularMenu/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CircularMenu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCCircularMenu.app.CircularMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0AE3E3527EB05F600C8F0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CircularMenu/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CircularMenu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCCircularMenu.app.CircularMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0AE3E3727EB05F600C8F0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCCircularMenu.app.CircularMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularMenu.app/CircularMenu";
+			};
+			name = Debug;
+		};
+		D0AE3E3827EB05F600C8F0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCCircularMenu.app.CircularMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularMenu.app/CircularMenu";
+			};
+			name = Release;
+		};
+		D0AE3E3A27EB05F600C8F0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCCircularMenu.app.CircularMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircularMenu;
+			};
+			name = Debug;
+		};
+		D0AE3E3B27EB05F600C8F0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCCircularMenu.app.CircularMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircularMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0AE3DFF27EB05F600C8F0E6 /* Build configuration list for PBXProject "CircularMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AE3E3127EB05F600C8F0E6 /* Debug */,
+				D0AE3E3227EB05F600C8F0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AE3E3327EB05F600C8F0E6 /* Build configuration list for PBXNativeTarget "CircularMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AE3E3427EB05F600C8F0E6 /* Debug */,
+				D0AE3E3527EB05F600C8F0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AE3E3627EB05F600C8F0E6 /* Build configuration list for PBXNativeTarget "CircularMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AE3E3727EB05F600C8F0E6 /* Debug */,
+				D0AE3E3827EB05F600C8F0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AE3E3927EB05F600C8F0E6 /* Build configuration list for PBXNativeTarget "CircularMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AE3E3A27EB05F600C8F0E6 /* Debug */,
+				D0AE3E3B27EB05F600C8F0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0AE3DFC27EB05F600C8F0E6 /* Project object */;
+}
